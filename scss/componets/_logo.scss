@@ -1,0 +1,44 @@
+.logo {
+    padding: 24px 0;
+    padding-right: 0px;
+    display: none;
+}
+
+.logo-web {
+   display: none;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: "raleway", "sans-serif";
+    letter-spacing: 0.03em;
+    color: rgba(33, 150, 243, 1);
+@media screen and (min-width:768px) {
+        font-size: 24px;
+}}
+
+.logo-studio {
+    margin-right: 0;
+    padding-right: 0;
+    color: rgba(0, 0, 0, 1);
+    font-family: "raleway", "sans-serif";
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+@media screen and (min-width:768px) and (max-width:1199px) {
+font-size: 24px;
+}}
+.logo {
+    padding: 24px 0;
+    margin-left: 0;
+}
+.logo-box {
+    display: block;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.logo-studio-white {
+    color: var(--aksent-text-other-color);
+    font-family: "raleway", "sant serif";
+    font-size: 26px;
+    line-height: 1.19;
+}

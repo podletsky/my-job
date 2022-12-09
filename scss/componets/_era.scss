@@ -1,0 +1,188 @@
+
+
+
+.container__room-lux
+{
+ width: 414px;
+    background: rgba(255, 253, 238, 1);;
+padding-top: 32px; 
+padding-bottom: 32px;
+position: relative;
+@media screen and( min-width:1024px) {
+   width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 62px;
+    
+}
+}
+
+.hotel__text{
+letter-spacing: .02em;
+    color: var(--color-beige1);
+    max-width: 258px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+color:#5F5F5F;
+        margin-bottom: 32px;
+        font-size: 12px;
+margin-bottom: 32px;
+text-align: justify;
+    
+@media screen and(min-width:1024px) {
+    
+  
+        margin-bottom: 176px;
+      
+
+        padding-right: 26px;
+   
+    letter-spacing: .02em;
+        color: var(--color-beige2);
+        max-width: 400px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.25;
+   
+
+    }
+}
+
+
+.photo__bedroom{
+     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+margin-right: 0px;
+margin-bottom: 32px;
+@media screen and(min-width:1024px) {
+    position: absolute;
+    top:-32px;
+    right: 112px;
+}}
+
+
+.photo{
+    display: flex;
+
+}
+
+        .hotel__subtitle{
+        font-weight:  400;
+            margin-bottom: 8px;
+            color:  rgba(180, 180, 180, 1);
+            height: 23px;
+            font-weight: 400;
+            color: rgba(180, 180, 180, 1);
+            @media screen and(min-width:1024px){
+                font-size: 32px;
+            } }
+
+                        .hotel__name{
+                            font-size: 40px;
+                            margin-bottom: 32px;
+                            @media screen and(min-width:1024px) {
+                                margin-bottom: 62px;
+                                
+                        }}
+.hotel__title{
+       font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+margin-bottom: 12px;
+@media screen and(min-width:1024px) 
+{margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 700;
+}}
+
+.hotel__name {
+ 
+    font-size: 64px;
+    font-weight: 700;
+    
+}
+.slide__list
+{overflow: hidden;
+    display: flex;
+    gap: 16px;
+    @media screen and(min-width:1024px) {
+            gap: 40px;
+            ;
+}}
+
+.button-other__detail{
+    
+    border-radius: 25px;
+width: 236px;
+height: 48px;
+background-color: black;
+color:#F3C653;
+font-size: 16px;
+}
+
+.button-other__price {
+   
+    border-radius: 25px;
+    width: 236px;
+    height: 48px;
+    background-color: black;
+    color: #F3C653;
+    font-size: 16px;
+}
+.button-other{
+ gap: 16px;
+    bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    align-items: center;
+    @media screen and(min-width:1024px) {
+        position: absolute;
+        right: 47px;
+     bottom: 45px;
+     margin-top: 0;
+    }
+
+
+    
+    ;
+}
+.button__right{
+
+    border-color: transparent;
+background-color:transparent;
+    fill: black;
+    cursor: pointer;
+    margin-left: 34px
+
+
+    ;
+}
+
+.button__left {
+
+    border-color: transparent;
+    background-color:transparent;
+    fill: black;
+    cursor: pointer;
+    
+    ;}
+
+    
+
+
+
+    
+                  .button-turn{
+                   position: absolute;
+                    bottom: 190px;
+                    @media screen and(min-width:1024px){
+bottom: -40px;
+        right: 50%;       }
+                  }
+    
+
+.slide__item{
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+
+}

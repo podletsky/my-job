@@ -1,0 +1,121 @@
+
+    
+
+.page-header {
+display:none;
+        margin: auto;
+        padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+@media screen and (min-width:480px) {
+        width: 480px;}
+    @media screen and (min-width:768px) {
+    width: 768px;}
+    @media screen and (min-width:1200px) {
+            width: 1200px;}}
+
+
+
+.page-header__conteiner {
+   position: relative;
+
+
+    display: flex;
+    margin: auto;
+    @media screen and(max-width:479px) {
+        width: 100%;
+    
+        
+    }
+    @media screen and (min-width:480px){
+width: 480px;}
+       @media screen and (min-width:768px) {
+       width:768px; }
+            @media screen and (min-width: 1200px) {
+                width: 1200px;
+
+    }}
+.navigation__link--curent {
+    &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    color: #2196f3;
+    width: 100%;
+    height: 4px;
+    background: #2196f3;
+    bottom: -1px;
+    border-radius: 2px;}
+}
+
+.navigation__link--curent {
+    padding: 32px 0;
+    color: var(--other-link-color);
+}
+
+
+
+.navigation__list {
+    display: flex;
+        position: relative;
+        align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 0px;
+    color: var(--main-title-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and (min-width:320px) and (max-width: 767px) {
+    display: none;
+        
+}}
+
+
+
+.navigation__link {
+ transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 32px 0;
+    color: var(--main-title-text-color);
+    margin: 0px;
+    height: 16px;
+    border-radius: nullpx;
+    &:hover,
+    &:focus{ 
+    color: var(--other-link-color);}
+@media screen and (min-width:768px) {
+    font-size: 14px;}}
+
+
+    .navigation__item {
+    position: relative;
+    padding: 32px 0;
+    margin-left: 50px;
+@media screen and (min-width:768px) {
+    margin-right:50px;  
+margin-left: 0px;
+   
+
+
+
+}}
+
+.navigation__item:first-child{
+    margin-left: 0px;
+}
+.navigation__item:last-child {
+    margin-right: 0px;}
+.navigation__icon{
+ background-color: #ffffff;
+ 
+} 
+
+
+    
+
